@@ -6,7 +6,7 @@ export const cardContent = [
     title: "Calendar",
     description:
       "Project made by React and Express",
-      projectUrl:"https://calendar749.netlify.app/auth/login",
+      projectUrl:"https://calendar749.netlify.app",
     imageUrl: "/calendar.jpg",
     skills: [
       {
