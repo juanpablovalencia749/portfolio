@@ -5,8 +5,8 @@ export const cardContent = [
     id: 0,
     title: "Calendar",
     description:
-      "Project made by React and Express.",
-      projectUrl:"https://www.linkedin.com/in/juan-pablo-valencia-s%C3%A1nchez-0616981b7/",
+      "Project made by React and Express",
+      projectUrl:"https://calendar749.netlify.app/auth/login",
     imageUrl: "/calendar.jpg",
     skills: [
       {
@@ -23,7 +23,7 @@ export const cardContent = [
     title: "To Do List",
     description:
       "Project made by React",
-      projectUrl:"https://www.linkedin.com/in/juan-pablo-valencia-s%C3%A1nchez-0616981b7/",
+      projectUrl:"https://todo-list749.netlify.app/",
     imageUrl: "/todo-list.jpg",
     skills: [
       {
