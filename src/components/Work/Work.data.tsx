@@ -4,6 +4,7 @@ export const cardContent = [
   {
     id: 0,
     title: "Calendar",
+    state: "Go",
     description:
       "Project made by React and Express",
       projectUrl:"https://calendar749.netlify.app",
@@ -21,6 +22,7 @@ export const cardContent = [
   {
     id: 1,
     title: "To Do List",
+    state: "Go",
     description:
       "Project made by React",
       projectUrl:"https://todo-list749.netlify.app/",
@@ -40,9 +42,10 @@ export const cardContent = [
   {
     id: 2,
     title: "Movies",
+    state:'In Progress',
     description:
       "Project create by React and public Api",
-    projectUrl:"https://www.linkedin.com/in/juan-pablo-valencia-s%C3%A1nchez-0616981b7/",
+    projectUrl:"",
     imageUrl: "/movies.jpg",
     skills: [
       {

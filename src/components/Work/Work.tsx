@@ -4,7 +4,18 @@ import { motion } from 'framer-motion'
 import { cardContent } from "./Work.data"
 import { useState } from "react"
 
-export function Work() {
+const getColorClass= (state:string):string => {
+    switch (state) {
+      case 'In Progress':
+        return 'bg-red-500'; 
+      default:
+        return 'bg-secondary';
+    }
+  };
+
+
+export function Work() { 
+
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
     const handleClick = (index: number) => {
@@ -41,7 +52,8 @@ export function Work() {
                         animate="show"
                         exit="hidden"
                     >
-                        {cardContent.map(({ id, title, imageUrl, description,projectUrl, skills }) => (
+                        {cardContent.map(({ id, title, imageUrl, description,projectUrl, skills, state }) => (
+                            
                             <motion.div key={id}
                                 className={`card cursor-pointer h-[400px] bg-auto bg-no-repeat bg-center rounded-[20px] ${id === expandedIndex && 'expanded'}`}
                                 initial={{ opacity: 1 }}
@@ -56,13 +68,14 @@ export function Work() {
                                     backgroundImage: `url(/assets/${imageUrl})`
                                 }}
                             >
+                                
                                 <div className="flex flex-col justify-end h-full">
                                     <div className="card-footer rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center p-3">
                                         <h2 className="text-xl font-semibold text-center text-white">{title}</h2>
                                         {id === expandedIndex && (
                                             <>
                                                 <p>{description}</p>
-                                                <a className="bg-secondary px-4 py-1 rounded-md m-3" href={projectUrl}>Go</a>
+                                                <a className={`${getColorClass(state)} px-4 py-1 rounded-md m-3`} href={projectUrl}>{state}</a>
                                                 <div className="flex gap-5 mt-3">
                                                     {skills.map((data, index) => (
                                                         <p key={index}>{data.icon}</p>
