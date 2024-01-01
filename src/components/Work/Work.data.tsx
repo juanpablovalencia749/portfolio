@@ -55,7 +55,7 @@ export const cardContent = [
         icon: <SiTailwindcss size="40" />
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiTypescript size="40" />
       },
     ]
   },
@@ -76,6 +76,9 @@ export const cardContent = [
       },
       {
         icon: <SiExpress size="40" />
+      },
+      {
+        icon: <SiTypescript size="40" />
       },
     ]
   },
