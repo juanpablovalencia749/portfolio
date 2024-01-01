@@ -6,7 +6,7 @@ import { useState } from "react"
 
 const getColorClass= (state:string):string => {
     switch (state) {
-      case 'In Progress':
+      case 'On Progress':
         return 'bg-red-500'; 
       default:
         return 'bg-secondary';
