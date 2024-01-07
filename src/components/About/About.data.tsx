@@ -52,7 +52,7 @@ export const dataAboutSkills = [
   },
   {
     id: 1,
-    text: "Experiencia",
+    text: "Experience",
     skills: [
       {
         title: "Wolkvox",
@@ -66,7 +66,7 @@ export const dataAboutSkills = [
   },
   {
     id: 2,
-    text: "Estudios",
+    text: "Studies",
     skills: [
       {
         title: "Analysis and Information Systems",

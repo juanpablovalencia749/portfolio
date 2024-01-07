@@ -10,7 +10,7 @@ export function About() {
     const [index, setIndex] = useState(0)
 
     return (
-        <div className="items-center min-h-screen px-6 mx-auto align-middle mt-36 md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0">
+        <div className="items-center min-h-screen px-6 mx-auto align-middle md:mt-0 md:flex md:max-w-4xl pb-36 md:pb-0  ">
             <motion.div
                 initial={motionTransitionsAbout.initial}
                 animate={motionTransitionsAbout.animate}

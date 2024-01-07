@@ -35,7 +35,7 @@ export function Work() {
 
     return (
         <div className="h-screen">
-            <div className="grid pb-32 md:min-h-screen mt-28 md:mt-0 place-items-center">
+            <div className="grid pb-32 md:min-h-screen md:mt-0 place-items-center">
                 <div>
                     <motion.h1
                         variants={fadeIn('left', 0.5)}
@@ -69,13 +69,13 @@ export function Work() {
                                 }}
                             >
                                 
-                                <div className="flex flex-col justify-end h-full">
+                                <div className="flex flex-col justify-end h-full hover:opacity-60">
                                     <div className="card-footer rounded-b-[20px] bg-gray-800 bg-opacity-75 min-h-[100px] flex flex-col items-center justify-center p-3">
                                         <h2 className="text-xl font-semibold text-center text-white">{title}</h2>
                                         {id === expandedIndex && (
                                             <>
                                                 <p>{description}</p>
-                                                <a className={`${getColorClass(state)} px-4 py-1 rounded-md m-3`} href={projectUrl}>{state}</a>
+                                                <a className={`${getColorClass(state)} px-4 py-1 rounded-md m-3`} href={projectUrl} target="_blank">{state}</a>
                                                 <div className="flex gap-5 mt-3">
                                                     {skills.map((data, index) => (
                                                         <p key={index}>{data.icon}</p>
