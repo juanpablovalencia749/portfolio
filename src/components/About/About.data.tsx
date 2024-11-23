@@ -56,7 +56,7 @@ export const dataAboutSkills = [
     skills: [
       {
         title: "Wolkvox",
-        date: "Jan 2022 - Oct2022",
+        date: "Jan 2022 - Oct 2022",
       },
       {
         title: "GBI-Mark",
