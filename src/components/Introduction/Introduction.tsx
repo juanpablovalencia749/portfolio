@@ -14,7 +14,7 @@ export function Introduction() {
                         exit="hidden"
                     >
                          <div className='relative rounded-md overflow-hidden md:h-80 md:w-80'>
-                            <Image src="/assets/me.jpeg" priority layout='fill' objectFit='cover' alt="Avatar" /> 
+                            <Image src="/assets/me.png" priority layout='fill' objectFit='cover' alt="Avatar" /> 
                         </div> 
 
                     </motion.div>

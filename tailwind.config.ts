@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        secondary: "#070491",
+        secondary: "#5c5ba6",
       },
       backgroundImage: {
         explosion: "url('/assets/bg-explosion.png')",
