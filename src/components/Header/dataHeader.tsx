@@ -11,6 +11,7 @@ export const socialNetworks = [
   },
   {
     logo: <RiLinkedinBoxFill size="40" />,
-    src: "https://www.linkedin.com/in/juan-pablo-valencia-s%C3%A1nchez-0616981b7/",
+    src: "https://www.linkedin.com/in/juan-pablo-valencia-0616981b7/",
+    
   }
 ];
