@@ -7,22 +7,22 @@ import {
 } from "react-icons/si";
 
 export const cardContent = [
-  {
-    id: 0,
-    title: "Calendar",
-    state: "Go",
-    description: "Calendar with login, powered by React and Express",
-    projectUrl: "https://calendar749.netlify.app",
-    imageUrl: "/calendar.jpg",
-    skills: [
-      {
-        icon: <SiReact size="40" />,
-      },
-      {
-        icon: <SiExpress size="40" />,
-      },
-    ],
-  },
+    // {
+    //   id: 0,
+    //   title: "Calendar",
+    //   state: "Go",
+    //   description: "Calendar with login, powered by React and Express",
+    //   projectUrl: "https://calendar749.netlify.app",
+    //   imageUrl: "/calendar.jpg",
+    //   skills: [
+    //     {
+    //       icon: <SiReact size="40" />,
+    //     },
+    //     {
+    //       icon: <SiExpress size="40" />,
+    //     },
+    //   ],
+    // },
   {
     id: 1,
     title: "To Do List",
