@@ -5,7 +5,7 @@ import {  SiReact, SiExpress, SiPostgresql, SiMongodb   } from "react-icons/si";
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 2,
+    endCounter: 3,
     text: "years of experience",
     lineRight: true,
     lineRightMobile: true,
@@ -64,8 +64,12 @@ export const dataAboutSkills = [
       },
       {
         title: "Nebula",
-        date: "Feb 2024 - Present",
+        date: "Feb 2024 - Feb 2025",
       },
+      {
+        title: "We Talk AI",
+        date: "May 2025 - Feb 2026",
+      }
     ],
   },
   {
